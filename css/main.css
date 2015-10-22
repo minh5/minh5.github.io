@@ -32,7 +32,7 @@ img {
 
 
 .section2 {
-  background-color: gray;
+  background-color: black;
   text-align: center;
   color: white;
   min-height: 100%;
@@ -41,28 +41,10 @@ img {
 
 
 .section3 {
-  background-color: lightslategray;
+  background-color: black;
   text-align: center;
   color: white;
   min-height: 100%;
   width: 100%;
 }
 
-
-
-.section4 {
-  background-color: slategray;
-  text-align: center;
-  color: white;
-  min-height: 100%;
-  width: 100%;
-}
-
-
-.section5 {
-  background-color: silver;
-  text-align: center;
-  color: black;
-  min-height: 100%;
-  width: 100%;
-}
