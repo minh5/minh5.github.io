@@ -1,7 +1,8 @@
 body {
-  background-color: black;
+  /*background: linear-gradient(black, #303030);*/
+  font-family: system, -apple-system,
+      ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
 }
-
 
 img {
   text-align: center;
@@ -24,15 +25,15 @@ img {
 }
 
 .section1 {
+  background: linear-gradient(black,#181818);
   text-align: center;
   color: white;
   min-height: 100%;
   width: 100%;
 }
 
-
 .section2 {
-  background-color: black;
+  background: linear-gradient(#181818, #202020);
   text-align: center;
   color: white;
   min-height: 100%;
@@ -41,10 +42,9 @@ img {
 
 
 .section3 {
-  background-color: black;
+  background: linear-gradient(#202020, #303030);
   text-align: center;
   color: white;
   min-height: 100%;
   width: 100%;
 }
-
