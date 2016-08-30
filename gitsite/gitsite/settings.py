@@ -78,6 +78,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'minh',
+        'USER': 'cipherpol',
+        'PASSWORD': '',
+        'HOST': 'localhost'
     }
 }
 
