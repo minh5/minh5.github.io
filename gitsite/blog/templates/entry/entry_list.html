@@ -1,3 +1,25 @@
+{% load staticfiles static %}
 <html>
-    <p>Testing</p>
-</html>
+<head>
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+
+<body>
+  <div class="page-header">
+    <h1><a href="/">Test Blog</a></h1>
+  </div>
+
+  {% for post in entries %}
+      <div class="post">
+        <div class ="date">
+          <p>published: {{ post.published_date }}</p>
+        </div>
+          <h1><a href="">{{ post.title }}</a></h1>
+          <p>{{ post.text|linebreaksbr }}</p>
+      </div>
+  {% endfor %}
+
+</body>
+</html

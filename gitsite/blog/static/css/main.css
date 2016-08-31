@@ -2,9 +2,46 @@ body {
   /*background: linear-gradient(black, #303030);*/
   font-family: system, -apple-system,
       ".SFNSDisplay-Regular", "Helvetica Neue", "Lucida Grande";
+  padding-left: 15px;
+
 }
 
-img {
+.page-header {
+    background-color: #ff9400;
+    margin-top: 0;
+    padding: 20px 20px 20px 40px;
+}
+
+.date {
+    color: #828282;
+}
+
+.save {
+    float: right;
+}
+
+.post-form textarea, .post-form input {
+    width: 100%;
+}
+
+.top-menu, .top-menu:hover, .top-menu:visited {
+    color: #ffffff;
+    float: right;
+    font-size: 26pt;
+    margin-right: 20px;
+}
+
+.post {
+    margin-bottom: 70px;
+}
+
+.post h1 a, .post h1 a:visited {
+    color: #000000;
+}
+
+
+
+/*img {
   text-align: center;
   width: 200px;
   height: 200px;
@@ -47,4 +84,4 @@ img {
   color: white;
   min-height: 100%;
   width: 100%;
-}
+}*/
