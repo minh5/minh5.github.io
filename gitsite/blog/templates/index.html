@@ -1,0 +1,92 @@
+{% load staticfiles static %}
+<html>
+
+<head>
+  <title>Some guy, Minh Mai</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="../../favicon.ico">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="about">About</a></li>
+          <li role="presentation"><a href="projects">Contact</a></li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Minh Mai</h3>
+    </div> -->
+
+    <div class="jumbotron">
+      <h1>Hello World.</h1>
+      <p class="lead">My name is Minh Mai and I'm a data scientist at <a href='http://www.0ptimus.com/'>0ptimus</a>.
+        <br> I like analyzing random things in Python, powerlifting, and taking pictures of food.
+      </p>
+    </div>
+
+    <div class="row subboxes">
+      <div class="col-lg-6">
+        <h3>Things I Did</h3>
+        <ul>
+          <li> Analyze <a href="https://github.com/minh5/census/blob/master/census.ipynb">commute</a> times using Census data</li>
+          <li> Examine (possible) <a href="https://github.com/minh5/wafflehouse/blob/master/analysis.ipynb">correlation</a> between Waffle House density and poverty rates</li>
+          <li> Conducted sentiment analysis on Trump on <a href="https://github.com/minh5/nlp-sentiment/blob/master/archive/twitter.ipynb">Twitter</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-6">
+        <h3> Things I'm Working On </h3>
+        <ul>
+          <li> Working with CPSC to help underserved communities </li>
+          <li> Understand neural nets better</li>
+          <li> Yelp more </li>
+          <li> Get to 1000 lbs. on the Big Three lifts</li>
+        </ul>
+      </div></div>
+      <div class="row subboxes">
+        <h3> I can work with these  </h3>
+        <div class="col-lg-6">
+          <h4> With little Googling </h4>
+          <ul>
+            <li> Python: <span class='codetext'>[sklearn, pandas, luigi, plotly, and a few more]</span></li>
+            <li> Other stats stuff: <span class='codetext'>[R, SPSS, Stata]</span></li>
+              <li> Databases: <span class='codetext'>[Postgresql, ORMs]</span></li>
+              <li> GIS and maps: <span class='codetext'>[QGIS, PostGIS]</span></li>
+              <li> Visualizations: <span class='codetext'>[Tableau, dc.js, Leaflet, Mapbox, HTML/CSS]</span></li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <h4> With a lot of Googling </h4>
+          <ul>
+            <li> Development: <span class='codetext'>[Django, D3, building APIs]</span></li>
+            <li> Deep Learning: <span class='codetext'>[Tensorflow, Theano, Torch]</span></li>
+            <li> "Big Data": <span class='codetext'>[Spark, AWS, Scala]</span></li>
+          </ul>
+        </div></div>
+        <div class="col-lg-12">
+          <h3>Current Stats @ 175 lbs.</h3>
+          <ul>
+            <li>Bench: 240 lbs</li>
+            <li>Squat: 305 lbs</li>
+            <li>Deadlift: 365 lbs</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
