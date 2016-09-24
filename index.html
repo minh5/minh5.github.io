@@ -1,52 +1,105 @@
 <html>
-  <head>
-    <title> Minh Mai </title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/main.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script src='js/ScrollMagic.min.js'></script>
-    <script src='js/main.js'></script>
-  </head>
-  <body>
-    <section class="section1">
-      <div class="container" id="contents">
-        <div class="row" style="padding-top:150px">
-          <img src="img/headshot.jpg" onmouseover="hover(this);" onmouseout="unhover(this);" />
-        </div>
-        <h1 id="intro">
-        Hi.
-        <br> My name is Minh Mai.
-        <br> And sometimes I have no idea what I'm doing.
-        </h1>
+
+<head>
+  <title>Some guy, Minh Mai</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="static/css/bootstrap.min.css">
+  <link rel="stylesheet" href="static/css/main.css">
+  <link rel="stylesheet" href="static/css/jumbotron-narrow.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- <div class="header clearfix">
+      <nav>
+        <ul class="nav nav-pills pull-right">
+          <li role="presentation" class="active"><a href="#">Home</a></li>
+          <li role="presentation"><a href="about">About</a></li>
+          <li role="presentation"><a href="projects">Contact</a></li>
+        </ul>
+      </nav>
+      <h3 class="text-muted">Minh Mai</h3>
+    </div> -->
+
+    <div class="jumbotron">
+      <h1>Hello World.</h1>
+      <p class="lead">My name is Minh Mai and I'm a data scientist at <a href='http://www.0ptimus.com/'>0ptimus</a>.
+        <br> I like analyzing random things in Python, powerlifting, and taking pictures of food.
+      </p>
+      <div class="social-media-block">
+        <a href='mailto:minh.v.mai@gmail.com'>
+          <img src='static/img/mail.png' , width=35px, height=35px></a>
+        <a href='https://www.instagram.com/minheatsfood/'>
+          <img src='static/img/ig.png' , width=35px, height=35px></a>
+        <a href='https://github.com/minh5'>
+          <img src='static/img/git.png' , width=35px, height=35px></a>
+        <a href='https://www.linkedin.com/in/minh-mai-3187342b'>
+          <img src='static/img/linkedin.png' , width=35px, height=35px></div>
+      </a>
+    </div>
+
+    <div class="row subboxes">
+      <h3><u>Stuff I Did</u></h3>
+      <div class="col-lg-6">
+        <ul>
+          <h4> Projects </h4>
+          <li> Analyze <a href="https://github.com/minh5/census/blob/master/census.ipynb">commute</a> times using Census data</li>
+          <li> Examine (possible) <a href="https://github.com/minh5/wafflehouse/blob/master/analysis.ipynb">correlation</a> between Waffle House density and poverty rates</li>
+          <li> Conducted sentiment analysis on Trump on <a href="https://github.com/minh5/nlp-sentiment/blob/master/archive/twitter.ipynb">Twitter</a></li>
+        </ul>
       </div>
-    </section>
-    <section class="section2">
-      <div class="container" id="pros">
-        <h1> But there are things that I do very well, like </h1>
-        <div class="ui grid">
-          <div class="center column">
-            <h2 style="padding-top: 0px; text-align:center;">
-            <span id="data" style="line-height: 75px;"> cleaning and analyzing <a href="https://github.com/minh5/wafflehouse/blob/master/analysis.ipynb">data</a></span><br>
-            <span id="maps" style="line-height: 75px;"> and creating silly <a href="http://cdb.io/1Gf9W16">maps</a> out of them</span><br>
-            <span id="curious" style="line-height: 75px;"> or just being plain curious about what I can answer with <a href="https://github.com/minh5/census/blob/master/census.ipynb">data.</a></span>
-            </h2>
-          </div>
-        </div>
+      <div class="col-lg-6">
+        <h4>Pending</h4>
+        <ul>
+          <li> Help the <a href='http://www.cpsc.gov/'>CPSC</a> help underserved communities </li>
+          <li> Understand neural nets better</li>
+          <li> Yelp more </li>
+          <li> Get to 1000 lbs. on the Big Three lifts</li>
+        </ul>
       </div>
-    </section>
-    <section class="section3">
-      <div class="container" id="improve">
-        <h1> I am always working on being a better</h1>
-        <div class="ui grid">
-          <div class="center column">
-            <h2 style="padding-top: 0px; text-align:center;">
-            <span id="ds" style="line-height: 75px;"><a href = "resume.pdf">data scientist</a></span><br>
-            <span id="tink" style="line-height: 75px;">developer/mapper/engineer/tinker-er</span><br>
-            <span id="food" style="line-height: 75px;"> <a href="https://www.instagram.com/statsandtats">"food photgrapher"</a></span>
-            </h2>
-          </div>
-        </div>
+    </div>
+    <div class="row subboxes">
+      <h3><u>What I Can Do</u></h3>
+      <div class="col-lg-6">
+        <h4> With little Googling </h4>
+        <ul>
+          <li> Python: <span class='codetext'>[sklearn, pandas, luigi, plotly, and a few more]</span></li>
+          <li> Other stats stuff: <span class='codetext'>[R, SPSS, Stata]</span></li>
+          <li> Databases: <span class='codetext'>[Postgresql, ORMs]</span></li>
+          <li> GIS and maps: <span class='codetext'>[QGIS, PostGIS]</span></li>
+          <li> Visualizations: <span class='codetext'>[Tableau, dc.js, Leaflet, Mapbox, HTML/CSS]</span></li>
+        </ul>
       </div>
-    </section>
-  </body>
-</html>
+      <div class="col-lg-6">
+        <h4> With a lot of Googling </h4>
+        <ul>
+          <li> Development: <span class='codetext'>[Django, D3, building APIs]</span></li>
+          <li> Deep Learning: <span class='codetext'>[Tensorflow, Theano, Torch]</span></li>
+          <li> "Big Data": <span class='codetext'>[Spark, AWS, Scala]</span></li>
+        </ul>
+      </div>
+    </div>
+    <div class="col-lg-12">
+      <h3><u>Current Stats @ 175 lbs.</u></h3>
+      <ul>
+        <li>Bench: 240 lbs</li>
+        <li>Squat: 305 lbs</li>
+        <li>Deadlift: 365 lbs</li>
+      </ul>
+    </div>
+
+  </div>
+  </div>
+
+
+  </div>
